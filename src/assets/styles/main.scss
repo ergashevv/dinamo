@@ -1,0 +1,44 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+  body {
+      padding: 0;
+      margin: 0;
+      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      // font-family: "HelveticaNeueCyr-Black";
+  }
+
+  .container-xxl {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1920px;
+      padding: 0;
+  }
+
+  .container-xl {
+      width: 100%;
+      max-width: 1095px;
+      margin: 0 auto;
+      padding: 0;
+  }
+
+  .container {
+      width: 100%;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0;
+  }

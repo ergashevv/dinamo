@@ -1,0 +1,48 @@
+.banner-all {
+    background: #F4F4F4;
+    padding: 70px 0 28px 0;
+
+    .banner {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+
+        .banner-left {
+            width: 80%;
+
+            h1 {
+                color: #131313;
+                // font-family: HelveticaNeueCyr;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 20px;
+                width: 100%;
+                max-width: 700px;
+            }
+
+            button {
+                border-radius: 4px;
+                background: #131313;
+                border: #131313;
+                padding: 15px 33px;
+                color: #FFF;
+                // font-family: HelveticaNeueCyr;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .banner-right {
+            width: 41%;
+            margin-left: -260px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
